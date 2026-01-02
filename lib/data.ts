@@ -156,15 +156,15 @@ export const projects: Project[] = [
     imageUrl: "/images/project-mediconnect.jpg",
     link: "#",
   },
-  {
-    id: 6,
-    title: "API Gateway",
-    year: "2021",
-    category: "Web Development",
-    description:
-      "High-performance backend infrastructure handling millions of requests for a social network.",
-    tags: ["Go", "Redis", "Docker"],
-    imageUrl: "/images/project-api.jpg",
-    link: "#",
-  },
+  // {
+  //   id: 6,
+  //   title: "API Gateway",
+  //   year: "2021",
+  //   category: "Web Development",
+  //   description:
+  //     "High-performance backend infrastructure handling millions of requests for a social network.",
+  //   tags: ["Go", "Redis", "Docker"],
+  //   imageUrl: "/images/project-api.jpg",
+  //   link: "#",
+  // },
 ];
