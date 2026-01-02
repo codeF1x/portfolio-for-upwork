@@ -239,7 +239,7 @@
         "role": "Lead Full-Stack Developer",
         "deliverables": [ "UI/UX Design", "Frontend Code", "REST API"],
         "feedback": {
-          "quote": "Flynndelivered beyond expectations. The new dashboard is lightning fast and the code is pristine.",
+          "quote": "Flynn delivered beyond expectations. The new dashboard is lightning fast and the code is pristine.",
           "author": "Client Name"
         },
         "objectives": {
@@ -283,15 +283,84 @@
       },
       "4": {
         "title": "Orbit SaaS",
-        "description": "Project management tool for remote teams featuring real-time collaboration."
+        "description": "Project management tool for remote teams featuring real-time collaboration.",
+        "overview": "A comprehensive project management platform designed for remote-first teams. It integrates task tracking, real-time chat, and file sharing into a single interface to streamline workflows.",
+        "role": "Senior Frontend Engineer",
+        "deliverables": ["Vue.js Frontend", "GraphQL Integration", "Real-time Features"],
+        "objectives": {
+          "0": {
+            "title": "Unified Workflow",
+            "description": "Combine communication and task management to reduce context switching."
+          },
+          "1": {
+            "title": "Real-time Collaboration",
+            "description": "Enable instant updates for task changes and comments using subscriptions."
+          }
+        },
+        "challenges": {
+          "0": {
+            "title": "State Management",
+            "description": "Managing complex application state across multiple users. Solution: Used Vuex with optimistic UI updates."
+          }
+        },
+        "feedback": {
+          "quote": "Orbit transformed how our remote team collaborates. The real-time features are a game changer.",
+          "author": "Product Manager"
+        }
       },
       "5": {
         "title": "MediConnect",
-        "description": "Telemedicine platform connecting patients with specialists via secure video calls."
+        "description": "Telemedicine platform connecting patients with specialists via secure video calls.",
+        "role": "Full Stack Developer",
+        "overview": "A secure telemedicine platform that allows patients to book appointments and consult with doctors via video calls. Built with HIPAA compliance and accessibility in mind.",
+        "deliverables": ["WebRTC Video", "Appointment Scheduling", "Secure Messaging"],
+        "objectives": {
+          "0": {
+            "title": "Accessibility",
+            "description": "Make healthcare accessible to remote areas via simple web interface."
+          },
+          "1": {
+            "title": "Security",
+            "description": "Ensure end-to-end encryption for all patient data and video streams."
+          }
+        },
+        "challenges": {
+          "0": {
+            "title": "Video Quality",
+            "description": "Ensuring stable video calls on low-bandwidth connections. Solution: implemented adaptive bitrate streaming."
+          }
+        },
+        "feedback": {
+          "quote": "A robust platform that handled our patient load effortlessly. Security and ease of use are top-notch.",
+          "author": "Clinic Director"
+        }
       },
       "6": {
         "title": "API Gateway",
-        "description": "High-performance backend infrastructure handling millions of requests for a social network."
+        "description": "High-performance backend infrastructure handling millions of requests for a social network.",
+        "overview": "A high-performance API gateway serving as the entry point for a large-scale social network microservices architecture. Handles authentication, rate limiting, and routing.",
+        "role": "Backend Engineer",
+        "deliverables": ["Go Microservices", "Redis Caching", "Rate Limiting"],
+        "objectives": {
+          "0": {
+            "title": "High Throughput",
+            "description": "Handle millions of concurrent requests with low latency."
+          },
+          "1": {
+            "title": "Reliability",
+            "description": "Ensure 99.99% uptime during peak traffic events."
+          }
+        },
+        "challenges": {
+          "0": {
+            "title": "Latency Spikes",
+            "description": "Garbage collection pauses causing latency. Solution: Optimized memory allocation and tuned GC settings in Go."
+          }
+        },
+        "feedback": {
+          "quote": "Our infrastructure reliability improved significantly. The gateway handles peak traffic without breaking a sweat.",
+          "author": "CTO"
+        }
       }
     }
   },

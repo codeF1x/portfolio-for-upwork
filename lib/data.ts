@@ -92,7 +92,7 @@ export const projects: Project[] = [
     deliverables: ["UI/UX Design", "Frontend Code", "REST API"],
     feedback: {
       quote:
-        "Flynndelivered beyond expectations. The new dashboard is lightning fast and the code is pristine.",
+        "Flynn delivered beyond expectations. The new dashboard is lightning fast and the code is pristine.",
       author: "Client Name",
     },
   },

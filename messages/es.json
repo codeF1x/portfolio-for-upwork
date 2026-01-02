@@ -283,15 +283,84 @@
       },
       "4": {
         "title": "Orbit SaaS",
-        "description": "Herramienta de gestión de proyectos para equipos remotos con colaboración en tiempo real."
+        "description": "Herramienta de gestión de proyectos para equipos remotos con colaboración en tiempo real.",
+        "overview": "Una plataforma integral de gestión de proyectos diseñada para equipos que trabajan a distancia. Integra seguimiento de tareas, chat en tiempo real y uso compartido de archivos en una sola interfaz para agilizar los flujos de trabajo.",
+        "role": "Ingeniero Frontend Senior",
+        "deliverables": ["Frontend Vue.js", "Integración GraphQL", "Funciones en Tiempo Real"],
+        "objectives": {
+          "0": {
+            "title": "Flujo de Trabajo Unificado",
+            "description": "Combinar comunicación y gestión de tareas para reducir el cambio de contexto."
+          },
+          "1": {
+            "title": "Colaboración en Tiempo Real",
+            "description": "Habilitar actualizaciones instantáneas para cambios de tareas y comentarios mediante suscripciones."
+          }
+        },
+        "challenges": {
+          "0": {
+            "title": "Gestión de Estado",
+            "description": "Gestionar el estado complejo de la aplicación entre múltiples usuarios. Solución: Usé Vuex con actualizaciones de UI optimistas."
+          }
+        },
+        "feedback": {
+          "quote": "Orbit transformó la forma en que colabora nuestro equipo remoto. Las funciones en tiempo real son un cambio de juego.",
+          "author": "Gerente de Producto"
+        }
       },
       "5": {
         "title": "MediConnect",
-        "description": "Plataforma de telemedicina que conecta pacientes con especialistas a través de videollamadas seguras."
+        "description": "Plataforma de telemedicina que conecta pacientes con especialistas a través de videollamadas seguras.",
+        "role": "Desarrollador Full Stack",
+        "overview": "Una plataforma de telemedicina segura que permite a los pacientes reservar citas y consultar con médicos a través de videollamadas. Construida teniendo en cuenta el cumplimiento de HIPAA y la accesibilidad.",
+        "deliverables": ["Video WebRTC", "Programación de Citas", "Mensajería Segura"],
+        "objectives": {
+          "0": {
+            "title": "Accesibilidad",
+            "description": "Hacer que la atención médica sea accesible en áreas remotas a través de una interfaz web simple."
+          },
+          "1": {
+            "title": "Seguridad",
+            "description": "Garantizar el cifrado de extremo a extremo para todos los datos de pacientes y transmisiones de video."
+          }
+        },
+        "challenges": {
+          "0": {
+            "title": "Calidad de Video",
+            "description": "Garantizar videollamadas estables en conexiones de bajo ancho de banda. Solución: implementé transmisión de tasa de bits adaptativa."
+          }
+        },
+        "feedback": {
+          "quote": "Una plataforma robusta que manejó nuestra carga de pacientes sin esfuerzo. La seguridad y la facilidad de uso son de primera categoría.",
+          "author": "Director de Clínica"
+        }
       },
       "6": {
         "title": "API Gateway",
-        "description": "Infraestructura backend de alto rendimiento que maneja millones de solicitudes para una red social."
+        "description": "Infraestructura backend de alto rendimiento que maneja millones de solicitudes para una red social.",
+        "overview": "Una puerta de enlace API de alto rendimiento que sirve como punto de entrada para una arquitectura de microservicios de red social a gran escala. Maneja autenticación, limitación de velocidad y enrutamiento.",
+        "role": "Ingeniero Backend",
+        "deliverables": ["Microservicios Go", "Caché Redis", "Limitación de Velocidad"],
+        "objectives": {
+          "0": {
+            "title": "Alto Rendimiento",
+            "description": "Manejar millones de solicitudes concurrentes con baja latencia."
+          },
+          "1": {
+            "title": "Fiabilidad",
+            "description": "Garantizar un tiempo de actividad del 99.99% durante eventos de tráfico máximo."
+          }
+        },
+        "challenges": {
+          "0": {
+            "title": "Picos de Latencia",
+            "description": "Pausas de recolección de basura que causan latencia. Solución: Optimicé la asignación de memoria y ajusté la configuración de GC en Go."
+          }
+        },
+        "feedback": {
+          "quote": "La fiabilidad de nuestra infraestructura mejoró significativamente. La puerta de enlace maneja el tráfico máximo sin problemas.",
+          "author": "CTO"
+        }
       }
     }
   },
