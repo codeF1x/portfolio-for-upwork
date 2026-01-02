@@ -4,11 +4,25 @@ import { useTranslations } from "next-intl";
 
 export default function ProjectOverview({ project }: { project: Project }) {
   const t = useTranslations("Projects.Overview");
+  const tList = useTranslations("Projects.List");
+
+  // Helper to safely get array/object from translations
+  const getList = (key: string) => {
+    try {
+      return tList.raw(`${project.id}.${key}`);
+    } catch (error) {
+      return null;
+    }
+  };
+
+  const objectives = getList("objectives");
+  const challenges = getList("challenges");
+  const overview = tList(`${project.id}.overview`);
 
   return (
     <div className="flex flex-col gap-10">
       {/* Overview */}
-      {project.overview && (
+      {overview && (
         <section className="space-y-6">
           <div className="flex items-center gap-3 pb-2 border-b border-border-color">
             <div className="p-2 rounded-lg bg-white/10 text-white">
@@ -17,13 +31,13 @@ export default function ProjectOverview({ project }: { project: Project }) {
             <h3 className="text-xl font-bold text-white">{t("overview")}</h3>
           </div>
           <div className="prose prose-invert max-w-none text-slate-400 leading-relaxed">
-            <p>{project.overview}</p>
+            <p>{overview}</p>
           </div>
         </section>
       )}
 
       {/* Objectives */}
-      {project.objectives && (
+      {objectives && (
         <section className="space-y-6">
           <div className="flex items-center gap-3 pb-2 border-b border-border-color">
             <div className="p-2 rounded-lg bg-white/10 text-white">
@@ -32,7 +46,7 @@ export default function ProjectOverview({ project }: { project: Project }) {
             <h3 className="text-xl font-bold text-white">{t("objectives")}</h3>
           </div>
           <div className="grid sm:grid-cols-2 gap-4">
-            {project.objectives.map((obj, index) => (
+            {Object.values(objectives).map((obj: any, index: number) => (
               <div
                 key={index}
                 className={`p-6 rounded-2xl bg-surface-card border border-border-color shadow-sm ${
@@ -48,7 +62,7 @@ export default function ProjectOverview({ project }: { project: Project }) {
       )}
 
       {/* Challenges */}
-      {project.challenges && (
+      {challenges && project.challenges && (
         <section className="space-y-6">
           <div className="flex items-center gap-3 pb-2 border-b border-border-color">
             <div className="p-2 rounded-lg bg-white/10 text-white">
@@ -57,14 +71,17 @@ export default function ProjectOverview({ project }: { project: Project }) {
             <h3 className="text-xl font-bold text-white">{t("challenges")}</h3>
           </div>
           <div className="space-y-4">
-            {project.challenges.map((challenge, index) => (
+            {Object.values(challenges).map((challenge: any, index: number) => (
               <div
                 key={index}
                 className="flex flex-col md:flex-row gap-6 p-6 rounded-2xl bg-surface-card border border-border-color"
               >
                 <div className="shrink-0">
                   <div className="size-12 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-400">
-                    <challenge.icon className="h-6 w-6" />
+                    {(() => {
+                      const Icon = project.challenges?.[index]?.icon || BrainCircuit;
+                      return <Icon className="h-6 w-6" />;
+                    })()}
                   </div>
                 </div>
                 <div>

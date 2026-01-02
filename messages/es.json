@@ -138,6 +138,23 @@
       "backend": "Backend y API",
       "uiux": "Diseño UI/UX"
     },
+    "Section": {
+      "title": "Stack Tecnológico y Herramientas",
+      "subtitle": "Habilidades",
+      "description": "Aprovecho las últimas tecnologías para construir soluciones robustas que perduran en el tiempo.",
+      "frontend": {
+        "title": "Frontend",
+        "description": "Creación de interfaces de usuario receptivas e interactivas con frameworks modernos de JavaScript."
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "Construcción de APIs seguras, arquitecturas de bases de datos y lógica del lado del servidor."
+      },
+      "design": {
+        "title": "Diseño y SEO",
+        "description": "Optimización para motores de búsqueda y creación de diseños perfectos en píxeles."
+      }
+    },
     "Toolbox": {
       "title": "Herramientas y Tecnologías"
     },
@@ -213,6 +230,69 @@
       "prevProject": "Proyecto Anterior",
       "nextProject": "Siguiente Proyecto",
       "viewAll": "Ver Todos los Proyectos"
+    },
+    "List": {
+      "1": {
+        "title": "Finly Analytics",
+        "description": "Un panel financiero integral para rastrear activos criptográficos en tiempo real y tendencias del mercado de valores utilizando D3.js.",
+        "overview": "Este proyecto implicó una revisión completa de un sistema de seguimiento financiero heredado. El objetivo era transformar un proceso torpe basado en hojas de cálculo en una aplicación web moderna y en tiempo real. El nuevo panel permite a los usuarios rastrear activos, predecir tendencias del mercado y generar informes al instante.",
+        "role": "Desarrollador Full-Stack Líder",
+        "deliverables": [ "Diseño UI/UX", "Código Frontend", "API REST"],
+        "feedback": {
+          "quote": "Alex entregó más allá de las expectativas. El nuevo panel es increíblemente rápido y el código es impecable.",
+          "author": "Nombre del Cliente"
+        },
+        "objectives": {
+          "0": {
+            "title": "Aumento de Eficiencia",
+            "description": "Reducción de la profundidad de clic para tareas comunes en un 60%, agilizando los flujos de trabajo."
+          },
+          "1": {
+            "title": "Sincronización en Tiempo Real",
+            "description": "Implementación de actualizaciones WebSocket para colaboración multiusuario instantánea."
+          },
+          "2": {
+            "title": "Accesibilidad Móvil",
+            "description": "Diseño totalmente receptivo que permite el acceso a través de tabletas y teléfonos."
+          }
+        },
+        "challenges": {
+          "0": {
+            "title": "Integración de Datos Heredados",
+            "description": "Los datos del cliente se almacenaban en un servidor SQL obsoleto con tablas no estructuradas. Solución: Construí un adaptador middleware Node.js para almacenar en caché y normalizar la estructura de datos."
+          },
+          "1": {
+            "title": "Visualización de Datos Compleja",
+            "description": "Mostrar más de 10,000 puntos de datos en un solo gráfico causaba retraso. Solución: Implementé muestreo de datos y renderizado WebGL usando Recharts."
+          }
+        }
+      },
+      "2": {
+        "title": "Sonic Stream",
+        "description": "Aplicación móvil de alta fidelidad para transmisión de música con funciones de intercambio social.",
+        "overview": "Una experiencia de transmisión de música perfecta construida para móviles. Centrada en la reproducción de audio de baja latencia y funciones sociales como listas de reproducción compartidas.",
+        "role": "Desarrollador Móvil",
+        "deliverables": [ "App iOS", "App Android", "Backend Firebase"]
+      },
+      "3": {
+        "title": "Luxe Wear",
+        "description": "Tienda Shopify headless personalizada construida para una marca de moda de lujo con rendimiento optimizado.",
+        "overview": "Una experiencia de comercio electrónico de alta gama. Desacoplamos el frontend de Shopify para permitir una libertad de diseño completa y cargas de página increíblemente rápidas.",
+        "role": "Desarrollador Frontend",
+        "deliverables": [ "Tienda Headless", "Integración Shopify"]
+      },
+      "4": {
+        "title": "Orbit SaaS",
+        "description": "Herramienta de gestión de proyectos para equipos remotos con colaboración en tiempo real."
+      },
+      "5": {
+        "title": "MediConnect",
+        "description": "Plataforma de telemedicina que conecta pacientes con especialistas a través de videollamadas seguras."
+      },
+      "6": {
+        "title": "API Gateway",
+        "description": "Infraestructura backend de alto rendimiento que maneja millones de solicitudes para una red social."
+      }
     }
   },
   "Contact": {

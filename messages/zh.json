@@ -237,6 +237,7 @@
         "description": "一个综合性的金融仪表盘，使用 D3.js 跟踪实时加密资产和股市趋势。",
         "overview": "该项目涉及对旧有金融跟踪系统的全面改革。目标是将笨重、基于电子表格的流程转变为现代、实时的 Web 应用程序。新的仪表盘允许用户即时跟踪资产、预测市场趋势并生成报告。",
         "role": "首席全栈开发人员",
+        "deliverables": [ "UI/UX 设计", "前端代码", "REST API"],
         "feedback": {
           "quote": "Flynn的交付超出了预期。新的仪表盘速度极快，代码也非常整洁。",
           "author": "客户姓名"
@@ -270,13 +271,15 @@
         "title": "Sonic Stream",
         "description": "用于音乐流媒体的高保真移动应用程序，具有社交分享功能。",
         "overview": "专为移动设备打造的无缝音乐流媒体体验。专注于低延迟音频播放和共享播放列表等社交功能。",
-        "role": "移动开发人员"
+        "role": "移动开发人员",
+        "deliverables": [ "iOS 应用", "Android 应用", "Firebase 后端"]
       },
       "3": {
         "title": "Luxe Wear",
         "description": "为奢侈时尚品牌构建的定制无头 Shopify 店面，具有优化的性能。",
         "overview": "高端电子商务体验。我们将前端与 Shopify 解耦，以实现完全的设计自由和极快的页面加载速度。",
-        "role": "前端开发人员"
+        "role": "前端开发人员",
+        "deliverables": [ "无头店面", "Shopify 集成"]
       },
       "4": {
         "title": "Orbit SaaS",

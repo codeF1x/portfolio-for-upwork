@@ -237,6 +237,7 @@
         "description": "A comprehensive financial dashboard for tracking real-time crypto assets and stock market trends using D3.js.",
         "overview": "This project involved a complete overhaul of a legacy financial tracking system. The goal was to transform a clunky, spreadsheet-based process into a modern, real-time web application. The new dashboard allows users to track assets, predict market trends, and generate reports instantly.",
         "role": "Lead Full-Stack Developer",
+        "deliverables": [ "UI/UX Design", "Frontend Code", "REST API"],
         "feedback": {
           "quote": "Flynndelivered beyond expectations. The new dashboard is lightning fast and the code is pristine.",
           "author": "Client Name"
@@ -270,13 +271,15 @@
         "title": "Sonic Stream",
         "description": "High-fidelity mobile application for music streaming with social sharing features.",
         "overview": "A seamless music streaming experience built for mobile. Focused on low-latency audio playback and social features like shared playlists.",
-        "role": "Mobile Developer"
+        "role": "Mobile Developer",
+        "deliverables": [ "iOS App", "Android App", "Firebase Backend"]
       },
       "3": {
         "title": "Luxe Wear",
         "description": "Custom headless Shopify storefront built for a luxury fashion brand with optimized performance.",
         "overview": "A high-end e-commerce experience. We decoupled the frontend from Shopify to allow for complete design freedom and blazing fast page loads.",
-        "role": "Frontend Developer"
+        "role": "Frontend Developer",
+        "deliverables": [ "Headless Storefront", "Shopify Integration"]
       },
       "4": {
         "title": "Orbit SaaS",

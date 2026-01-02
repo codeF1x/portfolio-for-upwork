@@ -5,6 +5,20 @@ import { useTranslations } from "next-intl";
 
 export default function ProjectSidebar({ project }: { project: Project }) {
   const t = useTranslations("Projects.Sidebar");
+  const tList = useTranslations("Projects.List");
+
+  // Helper to safely get array/object from translations
+  const getList = (key: string) => {
+    try {
+      return tList.raw(`${project.id}.${key}`);
+    } catch (error) {
+      return null;
+    }
+  };
+
+  const role = tList(`${project.id}.role`);
+  const deliverables = getList("deliverables");
+  const feedback = getList("feedback");
 
   return (
     <div className="space-y-8">
@@ -17,20 +31,20 @@ export default function ProjectSidebar({ project }: { project: Project }) {
         <div className="space-y-6 relative">
           <div className="absolute top-2 bottom-2 left-[7px] w-0.5 bg-border-color"></div>
           
-          {project.role && (
+          {role && (
             <div className="relative pl-6">
               <div className="absolute left-0 top-1.5 size-3.5 rounded-full border-2 border-white bg-surface-card"></div>
               <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">{t("role")}</p>
-              <p className="text-white font-medium">{project.role}</p>
+              <p className="text-white font-medium">{role}</p>
             </div>
           )}
 
-          {project.deliverables && (
+          {deliverables && (
             <div className="relative pl-6">
               <div className="absolute left-0 top-1.5 size-3.5 rounded-full border-2 border-white bg-surface-card"></div>
               <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">{t("deliverables")}</p>
               <div className="flex flex-wrap gap-2">
-                {project.deliverables.map((item) => (
+                {Array.isArray(deliverables) && deliverables.map((item: string) => (
                   <span
                     key={item}
                     className="px-2.5 py-1 bg-background-dark text-xs font-medium rounded-md text-slate-300 border border-border-color"
@@ -42,13 +56,13 @@ export default function ProjectSidebar({ project }: { project: Project }) {
             </div>
           )}
 
-          {project.feedback && (
+          {feedback && (
             <div className="relative pl-6">
               <div className="absolute left-0 top-1.5 size-3.5 rounded-full border-2 border-white bg-surface-card"></div>
               <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">{t("feedback")}</p>
               <div className="relative">
                 <Quote className="absolute -left-1 -top-1 text-white/20 h-8 w-8 -z-10 transform scale-x-[-1]" />
-                <p className="text-sm italic text-slate-400">"{project.feedback.quote}"</p>
+                <p className="text-sm italic text-slate-400">"{feedback.quote}"</p>
               </div>
             </div>
           )}

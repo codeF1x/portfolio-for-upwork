@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 
 export default function ProjectHeader({ project }: { project: Project }) {
   const t = useTranslations("Projects.Header");
+  const tList = useTranslations("Projects.List");
 
   return (
     <div className="flex flex-col gap-6">
@@ -17,7 +18,7 @@ export default function ProjectHeader({ project }: { project: Project }) {
           {project.category}
         </span>
         <ChevronRight className="h-4 w-4" />
-        <span className="text-white">{project.title}</span>
+        <span className="text-white">{tList(`${project.id}.title`)}</span>
       </nav>
       <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6">
         <div className="space-y-4 max-w-3xl">
@@ -30,10 +31,10 @@ export default function ProjectHeader({ project }: { project: Project }) {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
-            {project.title}
+            {tList(`${project.id}.title`)}
           </h1>
           <p className="text-lg text-slate-400 max-w-2xl leading-relaxed">
-            {project.description}
+            {tList(`${project.id}.description`)}
           </p>
         </div>
         <div className="flex gap-3 shrink-0">
