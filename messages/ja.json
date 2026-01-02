@@ -1,0 +1,294 @@
+{
+  "Navbar": {
+    "skills": "スキル",
+    "projects": "プロジェクト",
+    "process": "プロセス",
+    "contact": "お問い合わせ",
+    "location": "所在地",
+    "hireMe": "採用する"
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "zh": "中文",
+    "es": "Español",
+    "ja": "日本語"
+  },
+  "Hero": {
+    "available": "仕事募集中",
+    "titlePrefix": "プロフェッショナル",
+    "titleSuffix": "Upwork 開発者",
+    "description": "アイデアを高性能なWebアプリケーションに変えます。9年以上の経験を活かし、クリーンなコードとモダンなデザインでビジネスの拡大を支援します。",
+    "viewProjects": "プロジェクトを見る",
+    "getQuote": "見積もりを依頼",
+    "stats": {
+      "jobSuccess": "仕事成功率",
+      "ratedPlus": "トップ評価",
+      "projects": "プロジェクト",
+      "response": "応答時間"
+    }
+  },
+  "Home": {
+    "Process": {
+      "workflow": "ワークフロー",
+      "title": "私の働き方",
+      "steps": {
+        "discovery": {
+          "title": "発見",
+          "description": "目標、ターゲットオーディエンス、プロジェクト要件を調整し、強固な基盤を築きます。"
+        },
+        "design": {
+          "title": "デザイン",
+          "description": "直感的なプロトタイプとモックアップを作成し、ユーザーエクスペリエンスが完璧になるまで繰り返します。"
+        },
+        "development": {
+          "title": "開発",
+          "description": "ReactやNode.jsなどの最新スタックでコーディングし、クリーンでスケーラブルなアーキテクチャを保証します。"
+        },
+        "launch": {
+          "title": "ローンチ",
+          "description": "デプロイ、パフォーマンスの最適化、そして成功するライブリリースのための最終QAテスト。"
+        }
+      }
+    },
+    "Portfolio": {
+      "section": "ポートフォリオ",
+      "title": "注目のプロジェクト",
+      "viewAll": "すべてのプロジェクトを見る"
+    }
+  },
+  "Process": {
+    "Hero": {
+      "available": "新規プロジェクト募集中",
+      "title": "コンセプトからローンチまで、",
+      "subtitle": "透明性とプロフェッショナリズム",
+      "description": "Upworkで高品質な成果を提供するために設計された私の5段階のワークフローをご覧ください。予期せぬ事態はなく、明確なマイルストーンと一貫したコミュニケーションをお約束します。",
+      "startProject": "プロジェクトを開始",
+      "viewPortfolio": "ポートフォリオを見る"
+    },
+    "Steps": {
+      "title": "5段階のワークフロー",
+      "subtitle": "プロジェクトを成功に導くための構造化されたアプローチ。",
+      "step1": {
+        "title": "発見と戦略",
+        "description": "目標、範囲、期限について話し合い、認識を合わせます。適切な質問をすることで、ユーザーとビジネスニーズを深く理解します。",
+        "deliverable": "プロジェクト概要と見積もり"
+      },
+      "step2": {
+        "title": "デザインとコンセプト",
+        "description": "承認のために初期の高忠実度ドラフトとワイヤーフレームを作成します。ビジョンと完全に一致するまで、視覚的なスタイルを繰り返し調整します。",
+        "deliverable": "インタラクティブなモックアップ"
+      },
+      "step3": {
+        "title": "開発",
+        "description": "承認されたデザインを、クリーンでセマンティックなコードで実現する構築フェーズです。すべてがレスポンシブでピクセルパーフェクトであることを保証します。",
+        "deliverable": "週次進捗レポート"
+      },
+      "step4": {
+        "title": "レビューと改善",
+        "description": "デバイス間で機能をテストします。あなたが作業を確認し、私が最終製品を磨き上げるために必要な修正を行います。",
+        "deliverable": "ライブステージングリンク"
+      },
+      "step5": {
+        "title": "ローンチとサポート",
+        "description": "すべての資産の最終納品と引き渡し。デプロイを支援し、ローンチ後のサポート期間を提供します。",
+        "deliverable": "ソースファイルと資産"
+      }
+    },
+    "FAQ": {
+      "title": "よくある質問",
+      "subtitle": "コラボレーションプロセスについて知っておくべきことすべて。",
+      "q1": {
+        "question": "支払いはどのように行われますか？",
+        "answer": "Upworkのほとんどのプロジェクトでは、エスクローシステムを使用します。開始前にマイルストーンに資金を提供し、作業を承認した後にのみ資金が解放されます。"
+      },
+      "q2": {
+        "question": "修正が必要な場合はどうなりますか？",
+        "answer": "各マイルストーンには通常、2回の修正が含まれています。発見フェーズで期待値を明確にし、後の大きな変更を最小限に抑えます。"
+      },
+      "q3": {
+        "question": "コミュニケーションはどのように取りますか？",
+        "answer": "主なコミュニケーションはUpworkメッセージで行われます。大規模なプロジェクトの場合、進捗状況を話し合うために毎週Zoom通話をスケジュールできます。"
+      },
+      "q4": {
+        "question": "一般的なタイムラインはどのくらいですか？",
+        "answer": "タイムラインは複雑さによって異なります。ランディングページは3〜5日かかる場合がありますが、完全なウェブサイトは通常2〜4週間かかります。概要でスケジュールを提供します。"
+      }
+    },
+    "CTA": {
+      "title": "アイデアを実現する準備はできましたか？",
+      "description": "現在、新規プロジェクトを受け付けています。要件について話し合い、始めましょう。",
+      "hireMe": "Upworkで採用する",
+      "bookCall": "通話を予約する"
+    }
+  },
+  "Skills": {
+    "Hero": {
+      "available": "新規プロジェクト募集中",
+      "titlePrefix": "技術的な",
+      "titleSuffix": "専門知識",
+      "titleEnd": "とスタック",
+      "description": "私は最新の技術を使用して、スケーラブルでパフォーマンスが最適化されたWebアプリケーションを構築することを専門としています。以下は私の技術的能力の内訳です。",
+      "yearsExp": "年の経験",
+      "projects": "プロジェクト",
+      "jobSuccess": "仕事成功スコア"
+    },
+    "Competencies": {
+      "title": "コアコンピテンシー",
+      "frontend": "フロントエンド",
+      "backend": "バックエンドとAPI",
+      "uiux": "UI/UXデザイン"
+    },
+    "Toolbox": {
+      "title": "ツールボックスと技術"
+    },
+    "Education": {
+      "softSkillsTitle": "ソフトスキル",
+      "softSkills": {
+        "comm": {
+          "title": "効果的なコミュニケーション",
+          "desc": "リモート環境での明確な報告と文書化。"
+        },
+        "problem": {
+          "title": "問題解決",
+          "desc": "デバッグとアーキテクチャへの分析的アプローチ。"
+        },
+        "time": {
+          "title": "時間管理",
+          "desc": "高度に組織化されており、アジャイルスプリントに慣れています。"
+        }
+      },
+      "educationTitle": "教育",
+      "degree": "コンピュータサイエンス学士",
+      "university": "成都信息工程大学"
+    },
+    "CTA": {
+      "title": "素晴らしいものを作る準備はできましたか？",
+      "description": "現在、Upworkで新規プロジェクトを受け付けています。私のスキルがあなたのチームの成功にどのように貢献できるか話し合いましょう。",
+      "hireMe": "Upworkで採用する"
+    }
+  },
+  "Projects": {
+    "Page": {
+      "title": "厳選された作品",
+      "description": "世界中のクライアントのために構築されたデジタル製品、ウェブサイト、アプリケーションの厳選されたコレクション。高性能なReactアプリケーションとスケーラブルなバックエンドシステムを専門としています。",
+      "loadMore": "さらにプロジェクトを読み込む"
+    },
+    "Categories": {
+      "all": "すべてのプロジェクト",
+      "saas": "SaaS",
+      "ecommerce": "Eコマース",
+      "webDev": "Web開発",
+      "mobileApps": "モバイルアプリ",
+      "uiux": "UI/UXデザイン"
+    },
+    "Filter": {
+      "all": "すべてのプロジェクト"
+    },
+    "Card": {
+      "viewDetails": "詳細を見る"
+    },
+    "Header": {
+      "portfolio": "ポートフォリオ",
+      "completed": "完了",
+      "liveDemo": "ライブデモ",
+      "sourceCode": "ソースコード"
+    },
+    "Overview": {
+      "overview": "プロジェクト概要",
+      "objectives": "達成された主な目標",
+      "challenges": "技術的な課題",
+      "solution": "実装されたソリューション"
+    },
+    "Sidebar": {
+      "contribution": "私の貢献",
+      "role": "役割",
+      "deliverables": "成果物",
+      "feedback": "フィードバック",
+      "techStack": "技術スタック",
+      "needDeveloper": "開発者が必要ですか？",
+      "helpBuild": "このようなスケーラブルなアプリケーションの構築をお手伝いします。",
+      "hireMe": "Upworkで採用する"
+    },
+    "Navigation": {
+      "prevProject": "前のプロジェクト",
+      "nextProject": "次のプロジェクト",
+      "viewAll": "すべてのプロジェクトを見る"
+    }
+  },
+  "Contact": {
+    "title": "一緒に働きましょう",
+    "description": "プロジェクトのアイデアはありますか？現在、Upworkで新しい機会を受け付けています。あなたのビジョンを実現する方法について話し合いましょう。",
+    "fastTurnaround": {
+      "title": "迅速な対応",
+      "description": "締め切りを尊重し、高品質な作業を効率的に提供します。"
+    },
+    "qualityGuarantee": {
+      "title": "品質保証",
+      "description": "ビジネスとともに拡張する、クリーンで保守可能なコード。"
+    },
+    "connectDirectly": "直接連絡",
+    "emailMe": "メールを送る",
+    "form": {
+      "name": "名前",
+      "namePlaceholder": "Flynn WU",
+      "email": "メールアドレス",
+      "emailPlaceholder": "john@example.com",
+      "projectType": "プロジェクトタイプ",
+      "types": {
+        "webDev": "Web開発",
+        "uiux": "UI/UXデザイン",
+        "consultation": "コンサルティング",
+        "other": "その他"
+      },
+      "message": "メッセージ",
+      "messagePlaceholder": "プロジェクトについて教えてください...",
+      "send": "メッセージを送信",
+      "sending": "送信中...",
+      "preferUpwork": "Upworkをご希望ですか？",
+      "messageMe": "そこでメッセージを送る"
+    }
+  },
+  "Footer": {
+    "rights": "© 2024 Flynn WU. 全著作権所有。"
+  },
+  "Location": {
+    "Hero": {
+      "remoteReady": "リモート対応",
+      "title": "所在地と",
+      "availability": "可用性",
+      "description": "成都を拠点に、世界中で活動しています。効率的な非同期ワークフローと明確なコミュニケーションでタイムゾーンを橋渡しします。",
+      "chengdu": "中国、成都"
+    },
+    "Stats": {
+      "localTime": "現地時間",
+      "avgResponse": "平均応答時間",
+      "hours": "時間",
+      "timeZone": "タイムゾーン"
+    },
+    "Preferences": {
+      "title": "作業の好み",
+      "regions": {
+        "title": "サービス地域",
+        "subtitle": "主なサービス市場",
+        "list": ["北米", "ヨーロッパ (西部)", "APAC"],
+        "description": "異文化コミュニケーションと多様なチーム構造への適応経験があります。"
+      },
+      "overlap": {
+        "title": "重複時間",
+        "subtitle": "同期ミーティング用",
+        "est": "4時間 EST 重複",
+        "cet": "フル CET 重複"
+      },
+      "communication": {
+        "title": "コミュニケーションスタック",
+        "subtitle": "毎日使用するツール"
+      }
+    },
+    "CTA": {
+      "title": "グローバルなコラボレーションの準備はできましたか？",
+      "description": "タイムゾーンを超えて効率的に協力する方法について話し合いましょう。",
+      "bookCall": "紹介通話を予約",
+      "sendEmail": "メールを送る"
+    }
+  }
+}

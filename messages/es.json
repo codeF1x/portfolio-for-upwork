@@ -1,0 +1,294 @@
+{
+  "Navbar": {
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "process": "Proceso",
+    "contact": "Contacto",
+    "location": "Ubicación",
+    "hireMe": "Contratarme"
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "zh": "中文",
+    "es": "Español",
+    "ja": "日本語"
+  },
+  "Hero": {
+    "available": "DISPONIBLE PARA TRABAJAR",
+    "titlePrefix": "Profesional",
+    "titleSuffix": "Desarrollador Upwork",
+    "description": "Transformo ideas en aplicaciones web de alto rendimiento. Con más de 9 años de experiencia, ayudo a las empresas a escalar a través de código limpio y diseño moderno.",
+    "viewProjects": "Ver Proyectos",
+    "getQuote": "Obtener Cotización",
+    "stats": {
+      "jobSuccess": "Éxito Laboral",
+      "ratedPlus": "Mejor Valorado",
+      "projects": "Proyectos",
+      "response": "Respuesta"
+    }
+  },
+  "Home": {
+    "Process": {
+      "workflow": "Flujo de Trabajo",
+      "title": "Cómo Trabajo",
+      "steps": {
+        "discovery": {
+          "title": "Descubrimiento",
+          "description": "Alineamos objetivos, público objetivo y requisitos del proyecto para establecer una base sólida."
+        },
+        "design": {
+          "title": "Diseño",
+          "description": "Creo prototipos y maquetas intuitivas, iterando hasta que la experiencia del usuario sea perfecta."
+        },
+        "development": {
+          "title": "Desarrollo",
+          "description": "Codificación con stacks modernos como React y Node.js, asegurando una arquitectura limpia y escalable."
+        },
+        "launch": {
+          "title": "Lanzamiento",
+          "description": "Despliegue, optimización del rendimiento y pruebas de control de calidad finales para un lanzamiento exitoso."
+        }
+      }
+    },
+    "Portfolio": {
+      "section": "Portafolio",
+      "title": "Proyectos Destacados",
+      "viewAll": "Ver Todos los Proyectos"
+    }
+  },
+  "Process": {
+    "Hero": {
+      "available": "Disponible para nuevos proyectos",
+      "title": "Del Concepto al Lanzamiento,",
+      "subtitle": "Transparente y Profesional",
+      "description": "Explore mi flujo de trabajo de 5 pasos diseñado para entregar resultados de alta calidad en Upwork. Sin sorpresas, solo hitos claros y comunicación constante.",
+      "startProject": "Iniciar un Proyecto",
+      "viewPortfolio": "Ver Portafolio"
+    },
+    "Steps": {
+      "title": "Mi Flujo de Trabajo de 5 Pasos",
+      "subtitle": "Un enfoque estructurado para asegurar el éxito de su proyecto.",
+      "step1": {
+        "title": "Descubrimiento y Estrategia",
+        "description": "Discutimos sus objetivos, alcance y plazos para asegurar la alineación. Hago las preguntas correctas para entender profundamente a sus usuarios y necesidades comerciales.",
+        "deliverable": "Resumen del Proyecto y Estimación"
+      },
+      "step2": {
+        "title": "Diseño y Concepto",
+        "description": "Creo borradores iniciales de alta fidelidad y wireframes para su aprobación. Iteramos en el estilo visual hasta que coincida perfectamente con su visión.",
+        "deliverable": "Maquetas Interactivas"
+      },
+      "step3": {
+        "title": "Desarrollo",
+        "description": "La fase de construcción donde el diseño aprobado cobra vida con código limpio y semántico. Aseguro que todo sea responsivo y perfecto en píxeles.",
+        "deliverable": "Informes de Progreso Semanales"
+      },
+      "step4": {
+        "title": "Revisión y Refinamiento",
+        "description": "Probamos la funcionalidad en diferentes dispositivos. Usted revisa el trabajo y yo hago las revisiones necesarias para pulir el producto final.",
+        "deliverable": "Enlace de Demostración en Vivo"
+      },
+      "step5": {
+        "title": "Lanzamiento y Soporte",
+        "description": "Entrega final y traspaso de todos los activos. Ayudo con el despliegue y proporciono un período de soporte posterior al lanzamiento.",
+        "deliverable": "Archivos Fuente y Activos"
+      }
+    },
+    "FAQ": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Todo lo que necesita saber sobre el proceso de colaboración.",
+      "q1": {
+        "question": "¿Cómo funcionan los pagos?",
+        "answer": "Para la mayoría de los proyectos en Upwork, usamos el sistema de depósito en garantía (Escrow). Usted financia los hitos antes de que yo comience, y los fondos se liberan solo cuando aprueba el trabajo."
+      },
+      "q2": {
+        "question": "¿Qué pasa si necesito revisiones?",
+        "answer": "Cada hito generalmente incluye 2 rondas de revisiones. Aclararemos las expectativas en la fase de Descubrimiento para minimizar cambios importantes más adelante."
+      },
+      "q3": {
+        "question": "¿Cómo nos comunicamos?",
+        "answer": "La comunicación principal ocurre a través de Mensajes de Upwork. Para proyectos más grandes, podemos programar llamadas semanales por Zoom para discutir el progreso."
+      },
+      "q4": {
+        "question": "¿Cuál es el cronograma típico?",
+        "answer": "Los plazos varían según la complejidad. Una página de destino puede tardar de 3 a 5 días, mientras que un sitio web completo a menudo tarda de 2 a 4 semanas. Proporcionaré un cronograma en el resumen."
+      }
+    },
+    "CTA": {
+      "title": "¿Listo para dar vida a su idea?",
+      "description": "Actualmente tengo disponibilidad para nuevos proyectos. Discutamos sus requisitos y comencemos.",
+      "hireMe": "Contratarme en Upwork",
+      "bookCall": "Reservar una Llamada"
+    }
+  },
+  "Skills": {
+    "Hero": {
+      "available": "Disponible para nuevos proyectos",
+      "titlePrefix": "Experiencia",
+      "titleSuffix": "Técnica",
+      "titleEnd": "y Stack",
+      "description": "Me especializo en construir aplicaciones web escalables y optimizadas utilizando tecnologías modernas. Aquí hay un desglose de mis capacidades técnicas.",
+      "yearsExp": "Años Exp.",
+      "projects": "Proyectos",
+      "jobSuccess": "Éxito Laboral"
+    },
+    "Competencies": {
+      "title": "Competencias Principales",
+      "frontend": "Frontend",
+      "backend": "Backend y API",
+      "uiux": "Diseño UI/UX"
+    },
+    "Toolbox": {
+      "title": "Herramientas y Tecnologías"
+    },
+    "Education": {
+      "softSkillsTitle": "Habilidades Blandas",
+      "softSkills": {
+        "comm": {
+          "title": "Comunicación Efectiva",
+          "desc": "Informes claros y documentación en entornos remotos."
+        },
+        "problem": {
+          "title": "Resolución de Problemas",
+          "desc": "Enfoque analítico para la depuración y arquitectura."
+        },
+        "time": {
+          "title": "Gestión del Tiempo",
+          "desc": "Altamente organizado, acostumbrado a sprints Agile."
+        }
+      },
+      "educationTitle": "Educación",
+      "degree": "Licenciatura en Ciencias de la Computación",
+      "university": "Universidad de Tecnología de la Información de Chengdu"
+    },
+    "CTA": {
+      "title": "¿Listo para construir algo increíble?",
+      "description": "Actualmente estoy disponible para nuevos proyectos en Upwork. Discutamos cómo mis habilidades pueden contribuir al éxito de su equipo.",
+      "hireMe": "Contratarme en Upwork"
+    }
+  },
+  "Projects": {
+    "Page": {
+      "title": "Trabajos Seleccionados",
+      "description": "Una colección curada de productos digitales, sitios web y aplicaciones construidos para clientes de todo el mundo. Especializado en aplicaciones React de alto rendimiento y sistemas backend escalables.",
+      "loadMore": "Cargar Más Proyectos"
+    },
+    "Categories": {
+      "all": "Todos los Proyectos",
+      "saas": "SaaS",
+      "ecommerce": "Comercio Electrónico",
+      "webDev": "Desarrollo Web",
+      "mobileApps": "Aplicaciones Móviles",
+      "uiux": "Diseño UI/UX"
+    },
+    "Filter": {
+      "all": "Todos los Proyectos"
+    },
+    "Card": {
+      "viewDetails": "Ver Detalles"
+    },
+    "Header": {
+      "portfolio": "Portafolio",
+      "completed": "Completado",
+      "liveDemo": "Demo en Vivo",
+      "sourceCode": "Código Fuente"
+    },
+    "Overview": {
+      "overview": "Descripción del Proyecto",
+      "objectives": "Objetivos Clave Logrados",
+      "challenges": "Desafíos Técnicos",
+      "solution": "Solución Implementada"
+    },
+    "Sidebar": {
+      "contribution": "Mi Contribución",
+      "role": "Rol",
+      "deliverables": "Entregables",
+      "feedback": "Comentarios",
+      "techStack": "Stack Tecnológico",
+      "needDeveloper": "¿Necesita un desarrollador?",
+      "helpBuild": "Puedo ayudarle a construir aplicaciones escalables como esta.",
+      "hireMe": "Contratarme en Upwork"
+    },
+    "Navigation": {
+      "prevProject": "Proyecto Anterior",
+      "nextProject": "Siguiente Proyecto",
+      "viewAll": "Ver Todos los Proyectos"
+    }
+  },
+  "Contact": {
+    "title": "Trabajemos juntos",
+    "description": "¿Tiene un proyecto en mente? Actualmente estoy disponible para nuevas oportunidades en Upwork. Discutamos cómo podemos dar vida a su visión.",
+    "fastTurnaround": {
+      "title": "Entrega Rápida",
+      "description": "Respeto los plazos y entrego trabajo de alta calidad de manera eficiente."
+    },
+    "qualityGuarantee": {
+      "title": "Garantía de Calidad",
+      "description": "Código limpio y mantenible que escala con su negocio."
+    },
+    "connectDirectly": "Conectar Directamente",
+    "emailMe": "Envíame un Email",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Flynn WU",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "projectType": "Tipo de Proyecto",
+      "types": {
+        "webDev": "Desarrollo Web",
+        "uiux": "Diseño UI/UX",
+        "consultation": "Consultoría",
+        "other": "Otro"
+      },
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+      "send": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "preferUpwork": "¿Prefieres Upwork?",
+      "messageMe": "Envíame un mensaje allí"
+    }
+  },
+  "Footer": {
+    "rights": "© 2024 Flynn WU. Todos los derechos reservados."
+  },
+  "Location": {
+    "Hero": {
+      "remoteReady": "Listo para Remoto",
+      "title": "Ubicación y",
+      "availability": "Disponibilidad",
+      "description": "Con sede en Chengdu, creando globalmente. Uno zonas horarias con flujos de trabajo asíncronos eficientes y una comunicación clara.",
+      "chengdu": "Chengdu, CN"
+    },
+    "Stats": {
+      "localTime": "Hora Local",
+      "avgResponse": "Respuesta Promedio",
+      "hours": "Horas",
+      "timeZone": "Zona Horaria"
+    },
+    "Preferences": {
+      "title": "Preferencias de Trabajo",
+      "regions": {
+        "title": "Regiones de Servicio",
+        "subtitle": "Principales mercados atendidos",
+        "list": [ "América del Norte", "Europa (Oeste)", "APAC"],
+        "description": "Experiencia en comunicación intercultural y adaptación a diversas estructuras de equipo."
+      },
+      "overlap": {
+        "title": "Horas de Superposición",
+        "subtitle": "Para reuniones de sincronización",
+        "est": "4h Superposición EST",
+        "cet": "Superposición Completa CET"
+      },
+      "communication": {
+        "title": "Stack de Comunicación",
+        "subtitle": "Herramientas que uso diariamente"
+      }
+    },
+    "CTA": {
+      "title": "¿Listo para una colaboración global?",
+      "description": "Discutamos cómo podemos trabajar juntos a través de zonas horarias de manera eficiente.",
+      "bookCall": "Reservar Llamada de Introducción",
+      "sendEmail": "Enviar Email"
+    }
+  }
+}

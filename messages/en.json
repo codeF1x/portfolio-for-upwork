@@ -1,0 +1,371 @@
+{
+  "Navbar": {
+    "skills": "Skills",
+    "projects": "Projects",
+    "process": "Process",
+    "contact": "Contact",
+    "location": "Location",
+    "hireMe": "Hire Me"
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "zh": "中文",
+    "es": "Español",
+    "ja": "日本語"
+  },
+  "Hero": {
+    "available": "AVAILABLE FOR WORK",
+    "titlePrefix": "Professional",
+    "titleSuffix": "Upwork Developer",
+    "description": "I transform ideas into high-performance web applications. With 9+ years of experience, I help businesses scale through clean code and modern design.",
+    "viewProjects": "View Projects",
+    "getQuote": "Get a Quote",
+    "stats": {
+      "jobSuccess": "Job Success",
+      "ratedPlus": "Rated Plus",
+      "projects": "Projects",
+      "response": "Response"
+    }
+  },
+  "Home": {
+    "Process": {
+      "workflow": "Workflow",
+      "title": "How I Work",
+      "steps": {
+        "discovery": {
+          "title": "Discovery",
+          "description": "We align on goals, target audience, and project requirements to set a solid foundation."
+        },
+        "design": {
+          "title": "Design",
+          "description": "I craft intuitive prototypes and mockups, iterating until the user experience is perfect."
+        },
+        "development": {
+          "title": "Development",
+          "description": "Coding with modern stacks like React and Node.js, ensuring clean, scalable architecture."
+        },
+        "launch": {
+          "title": "Launch",
+          "description": "Deployment, performance optimization, and final QA testing for a successful live release."
+        }
+      }
+    },
+    "Portfolio": {
+      "section": "Portfolio",
+      "title": "Featured Projects",
+      "viewAll": "View All Projects"
+    }
+  },
+  "Process": {
+    "Hero": {
+      "available": "Available for new projects",
+      "title": "From Concept to Launch,",
+      "subtitle": "Transparent & Professional",
+      "description": "Explore my 5-step workflow designed to deliver high-quality results on Upwork. No surprises, just clear milestones and consistent communication.",
+      "startProject": "Start a Project",
+      "viewPortfolio": "View Portfolio"
+    },
+    "Steps": {
+      "title": "My 5-Step Workflow",
+      "subtitle": "A structured approach to ensure your project's success.",
+      "step1": {
+        "title": "Discovery & Strategy",
+        "description": "We discuss your goals, scope, and deadlines to ensure alignment. I ask the right questions to understand your users and business needs deeply.",
+        "deliverable": "Project Brief & Estimate"
+      },
+      "step2": {
+        "title": "Design & Concept",
+        "description": "I create initial high-fidelity drafts and wireframes for your approval. We iterate on the visual style until it perfectly matches your vision.",
+        "deliverable": "Interactive Mockups"
+      },
+      "step3": {
+        "title": "Development",
+        "description": "The building phase where the approved design comes to life with clean, semantic code. I ensure everything is responsive and pixel-perfect.",
+        "deliverable": "Weekly Progress Reports"
+      },
+      "step4": {
+        "title": "Review & Refine",
+        "description": "We test functionality across devices. You review the work, and I make necessary revisions to polish the final product.",
+        "deliverable": "Live Staging Link"
+      },
+      "step5": {
+        "title": "Launch & Support",
+        "description": "Final delivery and handoff of all assets. I assist with deployment and provide a period of post-launch support.",
+        "deliverable": "Source Files & Assets"
+      }
+    },
+    "FAQ": {
+      "title": "Common Questions",
+      "subtitle": "Everything you need to know about the collaboration process.",
+      "q1": {
+        "question": "How do payments work?",
+        "answer": "For most projects on Upwork, we use the Escrow system. You fund milestones before I start, and funds are released only when you approve the work."
+      },
+      "q2": {
+        "question": "What if I need revisions?",
+        "answer": "Each milestone typically includes 2 rounds of revisions. We will clarify expectations in the Discovery phase to minimize major changes later."
+      },
+      "q3": {
+        "question": "How do we communicate?",
+        "answer": "Primary communication happens via Upwork Messages. For larger projects, we can schedule weekly Zoom calls to discuss progress."
+      },
+      "q4": {
+        "question": "What is the typical timeline?",
+        "answer": "Timelines vary by complexity. A landing page might take 3-5 days, while a full website often takes 2-4 weeks. I'll provide a schedule in the brief."
+      }
+    },
+    "CTA": {
+      "title": "Ready to bring your idea to life?",
+      "description": "I currently have availability for new projects. Let's discuss your requirements and get started.",
+      "hireMe": "Hire Me on Upwork",
+      "bookCall": "Book a Call"
+    }
+  },
+  "Skills": {
+    "Hero": {
+      "available": "Available for new projects",
+      "titlePrefix": "Technical",
+      "titleSuffix": "Expertise",
+      "titleEnd": "& Stack",
+      "description": "I specialize in building scalable, performance-optimized web applications using modern technologies. Here is a breakdown of my technical capabilities.",
+      "yearsExp": "Years Exp.",
+      "projects": "Projects",
+      "jobSuccess": "Job Success Score"
+    },
+    "Competencies": {
+      "title": "Core Competencies",
+      "frontend": "Frontend",
+      "backend": "Backend & API",
+      "uiux": "UI/UX Design"
+    },
+    "Section": {
+      "title": "Tech Stack & Tools",
+      "subtitle": "Skills",
+      "description": "I leverage the latest technologies to build robust solutions that stand the test of time.",
+      "frontend": {
+        "title": "Frontend",
+        "description": "Creating responsive, interactive UIs with modern JavaScript frameworks."
+      },
+      "backend": {
+        "title": "Backend",
+        "description": "Building secure APIs, database architectures and server-side logic."
+      },
+      "design": {
+        "title": "Design & SEO",
+        "description": "Optimizing for search engines and creating pixel-perfect designs."
+      }
+    },
+    "Toolbox": {
+      "title": "Toolbox & Technologies"
+    },
+    "Education": {
+      "softSkillsTitle": "Soft Skills",
+      "softSkills": {
+        "comm": {
+          "title": "Effective Communication",
+          "desc": "Clear reporting and documentation in remote environments."
+        },
+        "problem": {
+          "title": "Problem Solving",
+          "desc": "Analytical approach to debugging and architecture."
+        },
+        "time": {
+          "title": "Time Management",
+          "desc": "Highly organized, accustomed to Agile sprints."
+        }
+      },
+      "educationTitle": "Education",
+      "degree": "Bachelor of Computer Science",
+      "university": "Chengdu University of Information Technology"
+    },
+    "CTA": {
+      "title": "Ready to build something amazing?",
+      "description": "I am currently available for new projects on Upwork. Let's discuss how my skills can contribute to your team's success.",
+      "hireMe": "Hire Me on Upwork"
+    }
+  },
+  "Projects": {
+    "Page": {
+      "title": "Selected Work",
+      "description": "A curated collection of digital products, websites, and applications built for clients around the globe. Specializing in high-performance React applications and scalable backend systems.",
+      "loadMore": "Load More Projects"
+    },
+    "Categories": {
+      "all": "All Projects",
+      "saas": "SaaS",
+      "ecommerce": "E-commerce",
+      "webDev": "Web Development",
+      "mobileApps": "Mobile Apps",
+      "uiux": "UI/UX Design"
+    },
+    "Filter": {
+      "all": "All Projects"
+    },
+    "Card": {
+      "viewDetails": "View Details"
+    },
+    "Header": {
+      "portfolio": "Portfolio",
+      "completed": "Completed",
+      "liveDemo": "Live Demo",
+      "sourceCode": "Source Code"
+    },
+    "Overview": {
+      "overview": "Project Overview",
+      "objectives": "Key Objectives Achieved",
+      "challenges": "Technical Challenges",
+      "solution": "Solution Implemented"
+    },
+    "Sidebar": {
+      "contribution": "My Contribution",
+      "role": "Role",
+      "deliverables": "Deliverables",
+      "feedback": "Feedback",
+      "techStack": "Tech Stack",
+      "needDeveloper": "Need a developer?",
+      "helpBuild": "I can help you build scalable applications just like this one.",
+      "hireMe": "Hire Me on Upwork"
+    },
+    "Navigation": {
+      "prevProject": "Previous Project",
+      "nextProject": "Next Project",
+      "viewAll": "View All Projects"
+    },
+    "List": {
+      "1": {
+        "title": "Finly Analytics",
+        "description": "A comprehensive financial dashboard for tracking real-time crypto assets and stock market trends using D3.js.",
+        "overview": "This project involved a complete overhaul of a legacy financial tracking system. The goal was to transform a clunky, spreadsheet-based process into a modern, real-time web application. The new dashboard allows users to track assets, predict market trends, and generate reports instantly.",
+        "role": "Lead Full-Stack Developer",
+        "feedback": {
+          "quote": "Flynndelivered beyond expectations. The new dashboard is lightning fast and the code is pristine.",
+          "author": "Client Name"
+        },
+        "objectives": {
+          "0": {
+            "title": "Efficiency Boost",
+            "description": "Reduce click-depth for common tasks by 60%, streamlining workflows."
+          },
+          "1": {
+            "title": "Real-time Sync",
+            "description": "Implement WebSocket updates for instant multi-user collaboration."
+          },
+          "2": {
+            "title": "Mobile Accessibility",
+            "description": "Full responsive design enabling access via tablets and phones."
+          }
+        },
+        "challenges": {
+          "0": {
+            "title": "Legacy Data Integration",
+            "description": "The client's data was stored in an outdated SQL server with unstructured tables. Solution: Built a Node.js middleware adapter to cache and normalize data structure."
+          },
+          "1": {
+            "title": "Complex Data Visualization",
+            "description": "Displaying 10,000+ data points on a single chart was causing lag. Solution: Implemented data sampling and WebGL rendering using Recharts."
+          }
+        }
+      },
+      "2": {
+        "title": "Sonic Stream",
+        "description": "High-fidelity mobile application for music streaming with social sharing features.",
+        "overview": "A seamless music streaming experience built for mobile. Focused on low-latency audio playback and social features like shared playlists.",
+        "role": "Mobile Developer"
+      },
+      "3": {
+        "title": "Luxe Wear",
+        "description": "Custom headless Shopify storefront built for a luxury fashion brand with optimized performance.",
+        "overview": "A high-end e-commerce experience. We decoupled the frontend from Shopify to allow for complete design freedom and blazing fast page loads.",
+        "role": "Frontend Developer"
+      },
+      "4": {
+        "title": "Orbit SaaS",
+        "description": "Project management tool for remote teams featuring real-time collaboration."
+      },
+      "5": {
+        "title": "MediConnect",
+        "description": "Telemedicine platform connecting patients with specialists via secure video calls."
+      },
+      "6": {
+        "title": "API Gateway",
+        "description": "High-performance backend infrastructure handling millions of requests for a social network."
+      }
+    }
+  },
+  "Contact": {
+    "title": "Let's work together",
+    "description": "Have a project in mind? I'm currently available for new opportunities on Upwork. Let's discuss how we can bring your vision to life.",
+    "fastTurnaround": {
+      "title": "Fast Turnaround",
+      "description": "I respect deadlines and deliver high-quality work efficiently."
+    },
+    "qualityGuarantee": {
+      "title": "Quality Guarantee",
+      "description": "Clean, maintainable code that scales with your business."
+    },
+    "connectDirectly": "Connect Directly",
+    "emailMe": "Email Me",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Flynn WU",
+      "email": "Email",
+      "emailPlaceholder": "john@example.com",
+      "projectType": "Project Type",
+      "types": {
+        "webDev": "Web Development",
+        "uiux": "UI/UX Design",
+        "consultation": "Consultation",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "preferUpwork": "Prefer Upwork?",
+      "messageMe": "Message me there"
+    }
+  },
+  "Footer": {
+    "rights": "© 2024 Flynn WU. All rights reserved."
+  },
+  "Location": {
+    "Hero": {
+      "remoteReady": "Remote Ready",
+      "title": "Location &",
+      "availability": "Availability",
+      "description": "Based in Chengdu, creating globally. I bridge time zones with efficient asynchronous workflows and crystal-clear communication.",
+      "chengdu": "Chengdu, CN"
+    },
+    "Stats": {
+      "localTime": "Local Time",
+      "avgResponse": "Avg. Response",
+      "hours": "Hours",
+      "timeZone": "Time Zone"
+    },
+    "Preferences": {
+      "title": "Working Preferences",
+      "regions": {
+        "title": "Service Regions",
+        "subtitle": "Primary markets served",
+        "list": [ "North America", "Europe (West)", "APAC"],
+        "description": "Experienced in cross-cultural communication and adapting to diverse team structures."
+      },
+      "overlap": {
+        "title": "Overlap Hours",
+        "subtitle": "For sync meetings",
+        "est": "4h EST Overlap",
+        "cet": "Full CET Overlap"
+      },
+      "communication": {
+        "title": "Communication Stack",
+        "subtitle": "Tools I use daily"
+      }
+    },
+    "CTA": {
+      "title": "Ready for a global collaboration?",
+      "description": "Let's discuss how we can work together across time zones efficiently.",
+      "bookCall": "Book Intro Call",
+      "sendEmail": "Send Email"
+    }
+  }
+}
